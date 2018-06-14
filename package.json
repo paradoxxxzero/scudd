@@ -1,6 +1,6 @@
 {
   "name": "scudd",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "React PureComponent shouldComponentUpdate logger (aka: ShouldComponentUpdate Diff and Debug, scudd)",
   "main": "lib/index.js",
   "repository": "https://github.com/paradoxxxzero/scudd",
