@@ -21,4 +21,6 @@ class MyComponent extends ScuddComponent {
 }
 ```
 
+[![](https://github.com/paradoxxxzero/scudd/raw/master/sshot.png)](https://github.com/paradoxxxzero/scudd/raw/master/sshot.png)
+
 and get a nice table of render triggers in your console.
