@@ -1,0 +1,40 @@
+{
+  "name": "scudd",
+  "version": "0.0.0",
+  "description": "React PureComponent shouldComponentUpdate logger (aka: ShouldComponentUpdate Diff and Debug, scudd)",
+  "main": "lib/index.js",
+  "repository": "https://github.com/paradoxxxzero/scudd",
+  "author": "Florian Mounier",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src --out-dir lib",
+    "lint": "eslint src",
+    "prepublish": "npm run build"
+  },
+  "pre-commit": "lint",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.51",
+    "@babel/core": "^7.0.0-beta.51",
+    "@babel/preset-env": "^7.0.0-beta.51",
+    "@babel/preset-react": "^7.0.0-beta.51",
+    "babel-eslint": "^8.2.3",
+    "eslint": "^4.19.1",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-react": "^7.9.1",
+    "import-sort-style-module": "^4.2.0",
+    "pre-commit": "^1.2.2",
+    "react": "^16.4.1"
+  },
+  "files": [
+    "lib/"
+  ],
+  "peerDependencies": {
+    "react": "^16.x.x"
+  },
+  "importSort": {
+    ".js, .jsx": {
+      "parser": "babylon",
+      "style": "module"
+    }
+  }
+}
